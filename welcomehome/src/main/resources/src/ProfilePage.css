@@ -1,0 +1,99 @@
+.hi-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.greeting {
+  margin-bottom: 20px;
+}
+
+.search-section {
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-section label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.search-box {
+  padding: 10px;
+  font-size: 1rem;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.search-btn, .logout-btn, .donate-btn, .create-order-btn, .generate-orders-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover, .logout-btn:hover {
+  background-color: #0056b3;
+}
+
+.result-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.result-table th, .result-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.result-table th {
+  background-color: #f2f2f2;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* New styles for the Donation Form */
+.donation-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e9f7ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.donation-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.donation-json-input {
+  width: 100%;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1rem;
+  height: 150px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+

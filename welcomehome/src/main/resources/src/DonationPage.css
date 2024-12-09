@@ -1,0 +1,123 @@
+.hi-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.greeting {
+  margin-bottom: 20px;
+}
+
+.donation-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e9f7ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.donation-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.donation-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: calc(100% - 20px); /* Adjust width to ensure padding inside */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is inside the width */
+}
+
+.donation-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.item-form {
+  margin-bottom: 20px;
+}
+
+.item-details {
+  margin-bottom: 20px;
+}
+
+.item-details h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item-details input {
+  padding: 10px;
+  font-size: 1rem;
+  width: calc(100% - 20px); /* Adjust width to ensure padding inside */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is inside the width */
+}
+
+.item-details input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.add-item-btn,
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.add-item-btn:hover,
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.submit-btn ,.piece-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
